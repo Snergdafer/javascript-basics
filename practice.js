@@ -9,13 +9,13 @@ let myName ="strang";
 //Create a variable called myAge that is a number data type
 
 //Code here
-let myAge ="24";
+let myAge =24;
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
 //Code here
-let lovesCode ="true";
+let lovesCode =true;
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
@@ -37,7 +37,7 @@ let devMountainGoal = null;
 
 //Code here
 function greeting(name) {
-  return "Hello " + name;
+  return "Hello, " + name;
 }
 //////////////////PROBLEM 7////////////////////
 
@@ -45,8 +45,8 @@ function greeting(name) {
 //Give it the same functionality as the function greeting in Problem 6.
 
 //Code Here
-function newGreeting(name) {
-  return "Hello " + name;
+let newGreeting = function(name) {
+  return "Hello, " + name;
 }
 //////////////////PROBLEM 8////////////////////
 
@@ -87,12 +87,12 @@ let devMountainClassPet = dog.name;
 
 // Code here
 function nameCheck(name) {
-  if (name = "Steven"){
+  if (name === "Steven") {
     return "What is up Steven?";
   }
 
-  else if (name = "Brian") {
-    return "Hey Brian!";
+  else if (name === "Bryan") {
+    return "Hey Bryan!";
   }
 
   else {
@@ -126,15 +126,15 @@ let mathSum = add(3,4);
 
 // Code here
 function faveColorFinder(color) {
-  if(color ="red") {
+  if(color ==="red") {
     return "red is a great color";
   }
 
-  else if(color ="green") {
+  else if(color ==="green") {
     return "green is a solid favorite color";
   }
 
-  else if(color ="black") {
+  else if(color ==="black") {
     return "so trendy";
   }
 
